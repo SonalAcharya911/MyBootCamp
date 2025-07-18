@@ -181,6 +181,7 @@ public class SpringConfiguration {
     @Bean
     public Curtain getCurtain(){
         System.out.println("registering getCurtain into Spring Container");
+        return new Curtain();
     }
 
 
