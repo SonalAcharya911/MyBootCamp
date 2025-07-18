@@ -2,6 +2,7 @@ package com.xworkz.flounder.config;
 
 import com.xworkz.flounder.bean.Bottle;
 import com.xworkz.flounder.bean.Crop;
+import com.xworkz.flounder.bean.Curtain;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -175,6 +176,11 @@ public class SpringConfiguration {
     public Character getSize(){
         System.out.println("registering getSize into Spring Container");
         return new Character('L');
+    }
+
+    @Bean
+    public Curtain getCurtain(){
+        System.out.println("registering getCurtain into Spring Container");
     }
 
 
