@@ -1,4 +1,4 @@
-package com.xworkz.flounder;
+package com.xworkz.flounder.component;
 
 import org.springframework.stereotype.Component;
 
