@@ -22,6 +22,6 @@ public class SpringInitializer extends AbstractAnnotationConfigDispatcherServlet
     @Override
     protected String[] getServletMappings() {
         System.out.println("running getServletMappings...");
-        return new String[0];
+        return new String[1];
     }
 }
