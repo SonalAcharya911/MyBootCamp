@@ -3,6 +3,7 @@ package com.xworkz.flounder.config;
 import com.xworkz.flounder.bean.Bottle;
 import com.xworkz.flounder.bean.Crop;
 import com.xworkz.flounder.bean.Curtain;
+import com.xworkz.flounder.component.Fan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -182,6 +183,11 @@ public class SpringConfiguration {
     public Curtain getCurtain(){
         System.out.println("registering getCurtain into Spring Container");
         return new Curtain();
+    }
+
+    @Bean
+    public Fan getFan(){
+        return new Fan();
     }
 
 
