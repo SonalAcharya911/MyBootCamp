@@ -11,6 +11,6 @@ public class BakeryComponent {
     private Fan fan;
 
     public BakeryComponent(){
-        System.out.println("created BakeryComponent....");
+        System.out.println("created BakeryComponent");
     }
 }
