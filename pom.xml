@@ -2,25 +2,18 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.xworkz</groupId>
-
-  <artifactId>Rainbow</artifactId>
-  <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>Rainbow Maven Webapp</name>
-
   <artifactId>Flounder</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Flounder Maven Webapp</name>
->>>>>>> 9b70fc109ffc5357c1f3fda3fa1b4e65b81769ab
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
-      <scope>test</scope>
-<<<<<<< HEAD
+        <scope>test</scope>
+
 
     </dependency>
 
@@ -29,9 +22,7 @@
       <artifactId>spring-beans</artifactId>
       <version>5.3.34</version>
     </dependency>
-=======
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
@@ -43,26 +34,26 @@
       <version>5.2.12.RELEASE</version>
     </dependency>
 
->>>>>>> 9b70fc109ffc5357c1f3fda3fa1b4e65b81769ab
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.38</version>
+    </dependency>
 
-<<<<<<< HEAD
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.38</version>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>Rainbow</finalName>
-=======
-  </dependencies>
+
   <build>
     <finalName>Flounder</finalName>
->>>>>>> 9b70fc109ffc5357c1f3fda3fa1b4e65b81769ab
+
   </build>
 </project>
